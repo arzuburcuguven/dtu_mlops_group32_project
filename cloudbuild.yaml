@@ -1,0 +1,20 @@
+options:
+  env:
+    - DOCKER_BUILDKIT=1
+
+steps:
+- name: 'gcr.io/cloud-builders/docker'
+  id: 'Build container'
+  args:
+    - 'build'
+    - '-t'
+    - 'europe-west1-docker.pkg.dev/avian-infusion-447811-q0/my-containers/train:latest'
+    - '-f'
+    - 'dockerfiles/train.dockerfile'
+    - '.'
+
+- name: 'gcr.io/cloud-builders/docker'
+  id: 'Push container'
+  args:
+    - 'push'
+    - 'europe-west1-docker.pkg.dev/avian-infusion-447811-q0/my-containers/train:latest'

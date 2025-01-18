@@ -1,0 +1,2 @@
+from data import preprocess
+from dtu_mlops_group32_project import _PATH_DATA

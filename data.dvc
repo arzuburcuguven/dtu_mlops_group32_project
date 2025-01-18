@@ -1,0 +1,144 @@
+outs:
+- hash: md5
+  path: data
+  files:
+  - relpath: .DS_Store
+    md5: 7e64bad2a186b653868f1deee8e7da36
+    size: 6148
+    cloud:
+      remote_storage:
+        etag: 08f8fab89994fd8a031001
+        version_id: '1737130714742136'
+  - relpath: make_dataset.py
+    md5: 95bd916303ba2d51ab357dcff80ad0c7
+    size: 2439
+    cloud:
+      remote_storage:
+        etag: 08bcb5a99994fd8a031001
+        version_id: '1737130714487484'
+  - relpath: processed/.DS_Store
+    md5: c46f9131fa81e9fb6ca1c25df273044e
+    size: 6148
+    cloud:
+      remote_storage:
+        etag: 089781bc9994fd8a031001
+        version_id: '1737130714792087'
+  - relpath: processed/.gitkeep
+    md5: d41d8cd98f00b204e9800998ecf8427e
+    size: 0
+    cloud:
+      remote_storage:
+        etag: 08c2fdbb9994fd8a031001
+        version_id: '1737130714791618'
+  - relpath: processed/dataset_dict.json
+    md5: d891fc9df4ce897bcacc398f78aea2ff
+    size: 43
+    cloud:
+      remote_storage:
+        etag: 08e0e3c39994fd8a031001
+        version_id: '1737130714919392'
+  - relpath: processed/test/data-00000-of-00001.arrow
+    md5: 0bcba96bcffbee5c73f240368c0cc461
+    size: 125444696
+    cloud:
+      remote_storage:
+        etag: 08f6c2fdac94fd8a031001
+        version_id: '1737130755711350'
+  - relpath: processed/test/dataset_info.json
+    md5: b04cf6c7c2079c059c4cf6c1660f5e2f
+    size: 2449
+    cloud:
+      remote_storage:
+        etag: 08c4bbc39994fd8a031001
+        version_id: '1737130714914244'
+  - relpath: processed/test/state.json
+    md5: 9d0647073d8b16afd511ecd4e4bebd33
+    size: 249
+    cloud:
+      remote_storage:
+        etag: 08c1faba9994fd8a031001
+        version_id: '1737130714774849'
+  - relpath: processed/train/data-00000-of-00001.arrow
+    md5: 7274fd5fbe732752b3d9fb79c6c737dc
+    size: 50536
+    cloud:
+      remote_storage:
+        etag: 089084bf9994fd8a031001
+        version_id: '1737130714841616'
+  - relpath: processed/train/data-00000-of-00005.arrow
+    md5: dd26c1e5282959bda3b39a85407b5d72
+    size: 445315280
+    cloud:
+      remote_storage:
+        etag: 08f7f4c0d594fd8a031001
+        version_id: '1737130840701559'
+  - relpath: processed/train/data-00001-of-00005.arrow
+    md5: 85f968c2cb508777317d76ecca1a9128
+    size: 443331600
+    cloud:
+      remote_storage:
+        etag: 089fcacfd294fd8a031001
+        version_id: '1737130834650399'
+  - relpath: processed/train/data-00002-of-00005.arrow
+    md5: 7c344706acd3784b2dd755f11e21440c
+    size: 438408064
+    cloud:
+      remote_storage:
+        etag: 08c9c5f6d594fd8a031001
+        version_id: '1737130841580233'
+  - relpath: processed/train/data-00003-of-00005.arrow
+    md5: 981c4696deadf26a8c6747ef0381dd37
+    size: 448978584
+    cloud:
+      remote_storage:
+        etag: 088d9996d694fd8a031001
+        version_id: '1737130842098829'
+  - relpath: processed/train/data-00004-of-00005.arrow
+    md5: 45571753a3e97d7e0c0e7e28b3c46fd3
+    size: 444657400
+    cloud:
+      remote_storage:
+        etag: 0882b6e5d694fd8a031001
+        version_id: '1737130843396866'
+  - relpath: processed/train/dataset_info.json
+    md5: b04cf6c7c2079c059c4cf6c1660f5e2f
+    size: 2449
+    cloud:
+      remote_storage:
+        etag: 0886fabb9994fd8a031001
+        version_id: '1737130714791174'
+  - relpath: processed/train/state.json
+    md5: cbf79546ad9e728145602102ba544b1b
+    size: 486
+    cloud:
+      remote_storage:
+        etag: 089ed5bc9994fd8a031001
+        version_id: '1737130714802846'
+  - relpath: processed/validation/data-00000-of-00001.arrow
+    md5: e2f8951374ff53a83aa15b2bed690911
+    size: 125552640
+    cloud:
+      remote_storage:
+        etag: 08b9b8a5ad94fd8a031001
+        version_id: '1737130756365369'
+  - relpath: processed/validation/dataset_info.json
+    md5: b04cf6c7c2079c059c4cf6c1660f5e2f
+    size: 2449
+    cloud:
+      remote_storage:
+        etag: 088698bc9994fd8a031001
+        version_id: '1737130714795014'
+  - relpath: processed/validation/state.json
+    md5: 2c4be08c3257ef3134a3ee26a7b62823
+    size: 255
+    cloud:
+      remote_storage:
+        etag: 08dd81c39994fd8a031001
+        version_id: '1737130714906845'
+  - relpath: raw/.gitkeep
+    md5: d41d8cd98f00b204e9800998ecf8427e
+    size: 0
+    cloud:
+      remote_storage:
+        etag: 08daa0c39994fd8a031001
+        version_id: '1737130714910810'
